@@ -109,6 +109,18 @@
     /* padding-left: -16px; */
 }
 
+@font-face{
+    font-family: 'alonica';
+    src: url('assets/Aclonica/Aclonica-Regular.ttf');
+    /* padding-left: -16px; */
+}
+
+@font-face{
+    font-family: 'bungee-tint';
+    src: url('assets/Bungee_Tint/BungeeTint-Regular.ttf');
+    /* padding-left: -16px; */
+}
+
 
 .About{
     padding-top: 32px;
@@ -143,7 +155,7 @@
 .Contact{
     padding-top: 32px;
     padding-left: 24px;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 
 .Contact h3{
@@ -159,15 +171,37 @@
 }
 
 
+.Glimpses{
+    padding-top: 32px;
+    padding-left: 24px;
+    padding-bottom: 50px;
+}
+
+.Glimpses h3{
+    font-family: 'Atmospheric';
+    padding-left: -16px;
+}
+
+.Glimpses h4{
+    font-family: 'EB Garamond';
+    font-weight: 600;
+    /* font-size: medium; */
+    /* padding-left: -16px; */
+}
+
+
+
 .lvl1 {
     margin-left: 32px;
-    font-weight: 500;
+    font-weight: 600;
+    font-family: 'EB Garamond';
     list-style-type: square;
   }
   
 .lvl1 > ul > li {
     margin-left: 40px;
     font-weight: 400;
+    font-family: 'EB Garamond';
     list-style-type: circle;
     /* padding-left: 32px; */
   }
@@ -204,9 +238,9 @@ nav {
     text-decoration: none;
     color: white;
     padding: 10px 20px;
-    font-size: 20px;
-    font-weight: 100;
-    font-family: "sofachrome";
+    font-size: 25px;
+    font-weight: 400;
+    font-family: "alonica";
 }
 
 /* Styling for the navigation links */
